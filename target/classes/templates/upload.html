@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+上传头像图片文件，即可得到得分
+<form method="POST" enctype="multipart/form-data" action="/whx/getFaceScore">
+    <p>
+        文件：<input type="file" name="file" />
+    </p>
+    <p>
+        <input type="submit" value="上传" />
+    </p>
+</form>
+</body>
+</html>
